@@ -24,6 +24,9 @@
     display: none;
     height: 100%;
 }
+
+/* "active" class will show our img, i need to remove it from on img and drop it to the next one */
+
 .slider-wrapper .images img.active {
     display: inline-block;
 }
