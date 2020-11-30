@@ -10,8 +10,8 @@ $(function (){
 
 //variabili definite
 
-var next = $("i.fa-angle-right");
-var prev = $("i.fa-angle-left");
+var next = $("div.next i.fa-angle-right");
+var prev = $("div.prev i.fa-angle-left");
 
 
 next.click(function (){
@@ -32,7 +32,11 @@ next.click(function (){
     
     
    
-} )
+});
+
+
+    
+
 
 
 
@@ -43,7 +47,7 @@ prev.click(function (){
     var first = $(".first");
     
 
-    if (active.hasClass("first")) {
+    if(active.hasClass('first')) {
      
      last.addClass("active");
      first.removeClass("active");
@@ -54,12 +58,7 @@ prev.click(function (){
     }
 
 
-
 })
-
-
-
-
 
     
-})
+});
